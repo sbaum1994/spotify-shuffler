@@ -3,11 +3,10 @@
 CLI in progress.
 
 In the mean time to run:
-Generate a clientId and clientSecret from spotify developer area of your account.
-Add the callback url in the settings for your new app as `localhost:8888/callback`.
-
-* `npm install`
-* `node server`
+* Generate a clientId and clientSecret from spotify developer area of your account.
+* Add the callback url in the settings for your new app as `localhost:8888/callback`.
+* Clone repo and cd into it then run `npm install`
+* Run `node server`
 * Navigate in your browser to `http://localhost:8888/authorize`
 * Login to spotify and get a page with an object that includes "accessToken": "`<token>`"
 * Copy the token into the below request where it says `<token>`. Put the playlist name in `<playlist name here>`.
